@@ -62,7 +62,12 @@ int main()
       
     }
 
-   printf("O resultado da sua operacao foi: %.2f\n", resultado);
+    if (resultado > 0)
+    {
+     printf("O resultado da sua operacao foi: %.2f\n", resultado);
+    }
+    
+   
 
    return 0;
 
