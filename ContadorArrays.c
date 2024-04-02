@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/*O programa Lê, armazena  e exibe  50 numeros informados pêlo Usuário */
+
 int main() {
     int i;
     int numeros[50];
