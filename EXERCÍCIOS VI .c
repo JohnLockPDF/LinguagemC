@@ -21,28 +21,28 @@ int main()
     switch (opcao)
     {
     case 1:
-       printf("Informe os dois numeros a serem somados:\n");
-       scanf("%d%d", &x, &y );
+           printf("Informe os dois numeros a serem somados:\n");
+           scanf("%d%d", &x, &y );
 
        resultado = x + y;
        break;
 
     case 2:
-       printf("Informe os dois numeros para a subtracao :\n");
-       scanf("%d%d", &x, &y );
+           printf("Informe os dois numeros para a subtracao :\n");
+           scanf("%d%d", &x, &y );
 
        resultado = x - y;
         break;
     case 3:
-       printf("Informe os dois numeros a serem multiplicados:\n");
-       scanf("%d%d", &x, &y );
+           printf("Informe os dois numeros a serem multiplicados:\n");
+           scanf("%d%d", &x, &y );
 
        resultado = x * y;
        break;
 
     case 4:
-        printf("Informe os dois numeros a serem divisao:\n");
-        scanf("%d%d", &x, &y );
+           printf("Informe os dois numeros a serem divisao:\n");
+           scanf("%d%d", &x, &y );
 
     if (x % 2 == 0 && y != 0 && x != 0)
     {
