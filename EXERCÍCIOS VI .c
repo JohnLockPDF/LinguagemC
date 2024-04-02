@@ -44,12 +44,22 @@ int main()
         printf("Informe os dois numeros a serem divisao:\n");
         scanf("%d%d", &x, &y );
 
-        resultado = x / y;
-        break;
+    if (x % 2 == 0 && y != 0 && x != 0)
+    {
+          resultado = x / y;
+    }
+    else if (x == 0 || y == 0)
+    {
+            printf("Opcao invalida Digite numeros diferente de zero;\n");
+    }   
+    else
+    {
+            printf("Nao, este numero nao EH divisivel.\n");
+                    break;
+    }  
     
-    default:
-      printf("Opcao invalida, digite novamente:\n");
-        break;
+
+      
     }
 
    printf("O resultado da sua operacao foi: %.2f\n", resultado);
