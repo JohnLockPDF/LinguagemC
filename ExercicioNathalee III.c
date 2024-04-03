@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*Faça um programa que lê 10 numeros e os exiba na orden reversa.*/
+
 int main()
 {
     int Numbers[10];
