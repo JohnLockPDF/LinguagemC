@@ -5,7 +5,7 @@
 /* Universidade Federal Rural Do Semi-Árido
     Disciplina: Algoritmo e programação*/
        
-	    /*Este programa calcula o produto da multiplicação entre dois números*/
+	    /*Este programa calcula o resultado da divisão entre dois números*/
 
  float Dividir(int x, int y)
 {

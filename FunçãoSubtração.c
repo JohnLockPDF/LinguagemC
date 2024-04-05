@@ -5,7 +5,7 @@
 /* Universidade Federal Rural Do Semi-Árido
     Disciplina: Algoritmo e programação*/
        
-	    /*Este programa calcula a soma entre dois números*/
+	    /*Este programa calcula a subtração entre dois números*/
 
  int Subtracao(int x, int y)
 {
