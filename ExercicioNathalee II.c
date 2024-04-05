@@ -13,11 +13,8 @@ float Avarage;
 
 for ( i = 0; i < 5; i++)
 {
-
     scanf("%d", &Granary[i]);
-
     Sum += Granary[i];
-
 }
     printf("The sum of the values is %d:\n", Sum);
 
@@ -37,9 +34,4 @@ for ( i = 0; i < 5; i++)
         }
     }
     
-
-
-
-
-
 }
