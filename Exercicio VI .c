@@ -41,7 +41,7 @@ int main()
        break;
 
     case 4:
-           printf("Informe os dois numeros a serem divisao:\n");
+           printf("Informe os dois numeros a serem divididos:\n");
            scanf("%d%d", &x, &y );
 
     if (x % 2 == 0 && y != 0 && x != 0)
